@@ -11,4 +11,13 @@ With Port 8080: `python manage.py runserver 8080`
 
 Change servers IP pass it along with port: `python manage.py runserver 0:8000`
 
+** Create DB Using **
+`python manage.py migrate`
+
+** To include the polls app **
+`python manage.py makemigration polls`
+
+** To Run Migrations
+`python manage.py sqlmigrate polls 0001`
+
 WIKI @ https://github.com/candyflossuk/django-tutorial/wiki
